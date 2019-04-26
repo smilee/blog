@@ -16,44 +16,57 @@ Installation was a breeze because I already had the requirements installed.
 
 * [Node.js](https://nodejs.org/en/)
 * [Git](https://git-scm.com/)
-Once you have the requirements installed, simply run the following commands on the command line:
-{% codeblock %}
+
+Once you have the requirements installed, simply run the following command on the command line to install Hexo:
+
+``` bash
 $ npm install -g hexo-cli
-{% endcodeblock %}
+```
 
 ## Initializing Hexo
 
 Once Hexo is installed, run the following commands in the target `folder`:
-{% codeblock %}
-$ hexo init `<folder>`
-$ cd `<folder>`
+
+``` bash
+$ hexo init <folder>
+$ cd <folder>
 $ npm install
-{% endcodeblock %}
+```
 
 ## Installing Plugins
 
 Install [`hexo-deployer-git`](https://github.com/hexojs/hexo-deployer-git) plugin:
-{% codeblock %}
+
+``` bash
 $ npm install hexo-deployer-git --save
-{% endcodeblock %}
+```
 
 ## Configuring Hexo
 
 Find and open `_config.yml` to add the following adjustments:
-{% codeblock %}
+
+``` yml
+url: http://yourdomain.com/blog
+root: /blog/
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+
+...
+
 deploy:
   type: git
-  repo: `https://username.github.io/blog`
+  repo: https://username.github.io/blog
   branch: gh-pages
   message:
-{% endcodeblock %}
+```
 
 ## Initializing Git
 
 Initialize Git by running the following command in the command line:
-{% codeblock %}
+
+``` bash
 $ git init
-{% endcodeblock %}
+```
 
 ## Creating a GitHub Repository
 
@@ -62,15 +75,18 @@ Visit and log into [GitHub](https://github.com/) and make a new repository. Name
 ## Adding a New Remote
 
 Take the remote URL from GitHub and put it in the following command as shown below:
-{% codeblock %}
-$ git remote add origin `git@github.com:username/blog.git`
-{% endcodeblock %}
+
+``` bash
+$ git remote add origin git@github.com:username/blog.git
+```
 
 ## Generate and Deploy
 
-Now you can deploy your sample post by running the following command:
-{% codeblock %}
-$ hexo -g deploy
-{% endcodeblock %}
+Now you can deploy your sample post by running the following commands:
+
+``` bash
+$ hexo generate
+$ hexo deploy
+```
 
 Voila!
