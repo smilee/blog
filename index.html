@@ -98,20 +98,27 @@
 <li><a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a></li>
 <li><a href="https://git-scm.com/" target="_blank" rel="noopener">Git</a></li>
 </ul>
-<p>Once you have the requirements installed, simply run the following commands on the command line:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure></p>
-<h2 id="Initializing-Hexo"><a href="#Initializing-Hexo" class="headerlink" title="Initializing Hexo"></a>Initializing Hexo</h2><p>Once Hexo is installed, run the following commands in the target <code>folder</code>:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init &lt;folder&gt;</span><br><span class="line">$ cd &lt;folder&gt;</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure></p>
-<h2 id="Installing-Plugins"><a href="#Installing-Plugins" class="headerlink" title="Installing Plugins"></a>Installing Plugins</h2><p>Install <a href="https://github.com/hexojs/hexo-deployer-git" target="_blank" rel="noopener"><code>hexo-deployer-git</code></a> plugin:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
-<h2 id="Configuring-Hexo"><a href="#Configuring-Hexo" class="headerlink" title="Configuring Hexo"></a>Configuring Hexo</h2><p>Find and open <code>_config.yml</code> to add the following adjustments:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://username.github.io/blog</span><br><span class="line">  branch: gh-pages</span><br><span class="line">  message:</span><br></pre></td></tr></table></figure></p>
-<h2 id="Initializing-Git"><a href="#Initializing-Git" class="headerlink" title="Initializing Git"></a>Initializing Git</h2><p>Initialize Git by running the following command in the command line:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git init</span><br></pre></td></tr></table></figure></p>
+<p>Once you have the requirements installed, simply run the following commands on the command line:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+<h2 id="Initializing-Hexo"><a href="#Initializing-Hexo" class="headerlink" title="Initializing Hexo"></a>Initializing Hexo</h2><p>Once Hexo is installed, run the following commands in the target <code>folder</code>:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init &lt;folder&gt;</span><br><span class="line"><span class="built_in">cd</span> &lt;folder&gt;</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+<h2 id="Installing-Plugins"><a href="#Installing-Plugins" class="headerlink" title="Installing Plugins"></a>Installing Plugins</h2><p>Install <a href="https://github.com/hexojs/hexo-deployer-git" target="_blank" rel="noopener"><code>hexo-deployer-git</code></a> plugin:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<h2 id="Configuring-Hexo"><a href="#Configuring-Hexo" class="headerlink" title="Configuring Hexo"></a>Configuring Hexo</h2><p>Find and open <code>_config.yml</code> to add the following adjustments:</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="attr">  type:</span> <span class="string">git</span></span><br><span class="line"><span class="attr">  repo:</span> <span class="attr">https://username.github.io/blog</span></span><br><span class="line"><span class="attr">  branch:</span> <span class="string">gh-pages</span></span><br><span class="line"><span class="attr">  message:</span></span><br></pre></td></tr></table></figure>
+<h2 id="Initializing-Git"><a href="#Initializing-Git" class="headerlink" title="Initializing Git"></a>Initializing Git</h2><p>Initialize Git by running the following command in the command line:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure>
 <h2 id="Creating-a-GitHub-Repository"><a href="#Creating-a-GitHub-Repository" class="headerlink" title="Creating a GitHub Repository"></a>Creating a GitHub Repository</h2><p>Visit and log into <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a> and make a new repository. Name the repository, check the <code>public</code> option, then click on <code>Create repository</code>.</p>
-<h2 id="Adding-a-New-Remote"><a href="#Adding-a-New-Remote" class="headerlink" title="Adding a New Remote"></a>Adding a New Remote</h2><p>Take the remote URL from GitHub and put it in the following command as shown below:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git remote add origin git@github.com:username/blog.git</span><br></pre></td></tr></table></figure></p>
-<h2 id="Generate-and-Deploy"><a href="#Generate-and-Deploy" class="headerlink" title="Generate and Deploy"></a>Generate and Deploy</h2><p>Now you can deploy your sample post by running the following commands:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></p>
+<h2 id="Adding-a-New-Remote"><a href="#Adding-a-New-Remote" class="headerlink" title="Adding a New Remote"></a>Adding a New Remote</h2><p>Take the remote URL from GitHub and put it in the following command as shown below:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin git@github.com:username/blog.git</span><br></pre></td></tr></table></figure>
+<h2 id="Generate-and-Deploy"><a href="#Generate-and-Deploy" class="headerlink" title="Generate and Deploy"></a>Generate and Deploy</h2><p>Now you can deploy your sample post by running the following commands:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
 <p>Voila!</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://smilee.github.io/blog/2019/04/27/hexo/" data-id="cjuycjarm0001szsu2e4a32sy" class="article-share-link">Share</a>
+      <a data-url="http://smilee.github.io/blog/2019/04/27/hexo/" data-id="cjuycqut400017hsuesqushyu" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/hexo-blog-github-pages/">hexo, blog, github, pages</a></li></ul>
@@ -158,7 +165,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://smilee.github.io/blog/2019/04/27/hello-world/" data-id="cjuycjari0000szsu0bx8qb0m" class="article-share-link">Share</a>
+      <a data-url="http://smilee.github.io/blog/2019/04/27/hello-world/" data-id="cjuycqut000007hsum1pqzj9h" class="article-share-link">Share</a>
       
       
     </footer>
