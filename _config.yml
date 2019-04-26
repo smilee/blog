@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: UX plus Development
-subtitle: equals Love
+title: UX + Development
+subtitle: = Love
 description: UX engineer on a mission to bridge the gap between design and development
 keywords: ux, ui, design, web, development
 author: Seungmin Lee
 language: English, Korean
-timezone: Seoul
+timezone: Asia/Seoul
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
