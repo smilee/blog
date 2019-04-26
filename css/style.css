@@ -911,7 +911,7 @@ a.article-title:hover {
   text-shadow: 0 1px #a21a1f;
 }
 .article-share-email:before {
-  content: "\f0d5";
+  content: "\f0e0";
 }
 .article-share-email:hover {
   background: #dd4b39;
