@@ -58,6 +58,7 @@
             '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
             '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
             '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+            '<a href="mailto:?subject=From UX + Development Blog&amp;body=Check out this blog post " + encodedUrl + "." target="_blank" title="Email"></a>',
           '</div>',
         '</div>'
       ].join('');
