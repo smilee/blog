@@ -1,6 +1,6 @@
 ---
-title: Deploy a Hexo Blog to Your GitHub Pages with a Custom Domain
-tags: 'hexo, blog, github, pages'
+title: Deploy a Hexo Blog to Your GitHub Pages
+tags: 'hexo, blog, github, github pages, development'
 date: 2019-04-27 02:13:26
 ---
 
@@ -46,13 +46,6 @@ $ npm install hexo-deployer-git --save
 Find and open `_config.yml` to add the following adjustments:
 
 ``` yml
-url: http://yourdomain.com/blog
-root: /blog/
-permalink: :year/:month/:day/:title/
-permalink_defaults:
-
-...
-
 deploy:
   type: git
   repo: https://username.github.io/blog
