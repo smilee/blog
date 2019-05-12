@@ -5,9 +5,9 @@
   <subtitle>= Love</subtitle>
   <link href="/blog/atom.xml" rel="self"/>
   
-  <link href="http://uxplus.dev/blog/"/>
+  <link href="https://uxplus.dev/blog/"/>
   <updated>2019-05-12T13:52:35.614Z</updated>
-  <id>http://uxplus.dev/blog/</id>
+  <id>https://uxplus.dev/blog/</id>
   
   <author>
     <name>Seungmin Lee</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>제너럴리스트로 가는 길</title>
-    <link href="http://uxplus.dev/blog/2019/04/27/how-to-become-a-generalist/"/>
-    <id>http://uxplus.dev/blog/2019/04/27/how-to-become-a-generalist/</id>
+    <link href="https://uxplus.dev/blog/2019/04/27/how-to-become-a-generalist/"/>
+    <id>https://uxplus.dev/blog/2019/04/27/how-to-become-a-generalist/</id>
     <published>2019-04-27T01:02:07.000Z</published>
     <updated>2019-05-12T13:52:35.614Z</updated>
     
@@ -34,25 +34,25 @@
     
     </summary>
     
-      <category term="Career" scheme="http://uxplus.dev/blog/categories/Career/"/>
+      <category term="Career" scheme="https://uxplus.dev/blog/categories/Career/"/>
     
     
-      <category term="generalist" scheme="http://uxplus.dev/blog/tags/generalist/"/>
+      <category term="generalist" scheme="https://uxplus.dev/blog/tags/generalist/"/>
     
-      <category term="designer" scheme="http://uxplus.dev/blog/tags/designer/"/>
+      <category term="designer" scheme="https://uxplus.dev/blog/tags/designer/"/>
     
-      <category term="developer" scheme="http://uxplus.dev/blog/tags/developer/"/>
+      <category term="developer" scheme="https://uxplus.dev/blog/tags/developer/"/>
     
-      <category term="hybrid" scheme="http://uxplus.dev/blog/tags/hybrid/"/>
+      <category term="hybrid" scheme="https://uxplus.dev/blog/tags/hybrid/"/>
     
-      <category term="ui libraries&#39;" scheme="http://uxplus.dev/blog/tags/ui-libraries/"/>
+      <category term="ui libraries&#39;" scheme="https://uxplus.dev/blog/tags/ui-libraries/"/>
     
   </entry>
   
   <entry>
     <title>First Step Towards Product Success</title>
-    <link href="http://uxplus.dev/blog/2019/04/27/first-step-towards-product-success/"/>
-    <id>http://uxplus.dev/blog/2019/04/27/first-step-towards-product-success/</id>
+    <link href="https://uxplus.dev/blog/2019/04/27/first-step-towards-product-success/"/>
+    <id>https://uxplus.dev/blog/2019/04/27/first-step-towards-product-success/</id>
     <published>2019-04-27T00:30:52.000Z</published>
     <updated>2019-05-12T10:51:42.064Z</updated>
     
@@ -67,21 +67,21 @@
     
     </summary>
     
-      <category term="Strategy" scheme="http://uxplus.dev/blog/categories/Strategy/"/>
+      <category term="Strategy" scheme="https://uxplus.dev/blog/categories/Strategy/"/>
     
     
-      <category term="ux" scheme="http://uxplus.dev/blog/tags/ux/"/>
+      <category term="ux" scheme="https://uxplus.dev/blog/tags/ux/"/>
     
-      <category term="product strategy" scheme="http://uxplus.dev/blog/tags/product-strategy/"/>
+      <category term="product strategy" scheme="https://uxplus.dev/blog/tags/product-strategy/"/>
     
-      <category term="design strategy" scheme="http://uxplus.dev/blog/tags/design-strategy/"/>
+      <category term="design strategy" scheme="https://uxplus.dev/blog/tags/design-strategy/"/>
     
   </entry>
   
   <entry>
     <title>Deploy a Hexo Blog to Your GitHub Pages</title>
-    <link href="http://uxplus.dev/blog/2019/04/27/deploy-hexo-to-github-pages/"/>
-    <id>http://uxplus.dev/blog/2019/04/27/deploy-hexo-to-github-pages/</id>
+    <link href="https://uxplus.dev/blog/2019/04/27/deploy-hexo-to-github-pages/"/>
+    <id>https://uxplus.dev/blog/2019/04/27/deploy-hexo-to-github-pages/</id>
     <published>2019-04-26T17:13:26.000Z</published>
     <updated>2019-05-12T10:33:10.972Z</updated>
     
@@ -96,27 +96,27 @@
     
     </summary>
     
-      <category term="Blog" scheme="http://uxplus.dev/blog/categories/Blog/"/>
+      <category term="Blog" scheme="https://uxplus.dev/blog/categories/Blog/"/>
     
-      <category term="Hexo" scheme="http://uxplus.dev/blog/categories/Blog/Hexo/"/>
+      <category term="Hexo" scheme="https://uxplus.dev/blog/categories/Blog/Hexo/"/>
     
     
-      <category term="hexo" scheme="http://uxplus.dev/blog/tags/hexo/"/>
+      <category term="hexo" scheme="https://uxplus.dev/blog/tags/hexo/"/>
     
-      <category term="blog" scheme="http://uxplus.dev/blog/tags/blog/"/>
+      <category term="blog" scheme="https://uxplus.dev/blog/tags/blog/"/>
     
-      <category term="github" scheme="http://uxplus.dev/blog/tags/github/"/>
+      <category term="github" scheme="https://uxplus.dev/blog/tags/github/"/>
     
-      <category term="github pages" scheme="http://uxplus.dev/blog/tags/github-pages/"/>
+      <category term="github pages" scheme="https://uxplus.dev/blog/tags/github-pages/"/>
     
-      <category term="development" scheme="http://uxplus.dev/blog/tags/development/"/>
+      <category term="development" scheme="https://uxplus.dev/blog/tags/development/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://uxplus.dev/blog/2019/01/01/hello-world/"/>
-    <id>http://uxplus.dev/blog/2019/01/01/hello-world/</id>
+    <link href="https://uxplus.dev/blog/2019/01/01/hello-world/"/>
+    <id>https://uxplus.dev/blog/2019/01/01/hello-world/</id>
     <published>2018-12-31T16:01:01.000Z</published>
     <updated>2019-05-04T16:35:22.895Z</updated>
     

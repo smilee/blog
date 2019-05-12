@@ -12,17 +12,17 @@
         <meta name="keywords" content="ux, ui, design, web, development, javascript,">
     
     
-        <link rel="icon" href="http://uxplus.dev/blog/assets/images/favicon.png">
+        <link rel="icon" href="https://uxplus.dev/blog/assets/images/favicon.png">
     
     
         <link rel="alternate" type="application/atom+xml" title="RSS" href="/blog/atom.xml">
     
-    <script type="application/ld+json">{"@context":"http://schema.org","@type":"Website","@id":"http://uxplus.dev/blog","author":{"@type":"Person","name":"Seungmin Lee","sameAs":["https://github.com/smilee","https://www.linkedin.com/in/uxplusdev","mailto:seungmin@uxplus.dev"],"image":"profile.png"},"name":"UX + Development","description":"UX engineer on a mission to bridge the gap between design and development","url":"http://uxplus.dev/blog"}</script>
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"Website","@id":"https://uxplus.dev/blog","author":{"@type":"Person","name":"Seungmin Lee","sameAs":["https://github.com/smilee","https://www.linkedin.com/in/uxplusdev","mailto:seungmin@uxplus.dev"],"image":"profile.png"},"name":"UX + Development","description":"UX engineer on a mission to bridge the gap between design and development","url":"https://uxplus.dev/blog"}</script>
     <meta name="description" content="UX engineer on a mission to bridge the gap between design and development">
 <meta name="keywords" content="ux, ui, design, web, development, javascript">
 <meta property="og:type" content="blog">
 <meta property="og:title" content="all-categories">
-<meta property="og:url" content="http://uxplus.dev/blog/all-categories/index.html">
+<meta property="og:url" content="https://uxplus.dev/blog/all-categories/index.html">
 <meta property="og:site_name" content="UX + Development">
 <meta property="og:description" content="UX engineer on a mission to bridge the gap between design and development">
 <meta property="og:locale" content="en">
@@ -35,13 +35,16 @@
         
     
     
-        <meta property="og:image" content="http://uxplus.dev/blog/assets/images/profile.png"/>
+        <meta property="og:image" content="https://uxplus.dev/blog/assets/images/profile.png"/>
     
     
     
     
     <!--STYLES-->
-    <link rel="stylesheet" href="/blog/assets/css/style-c4ozcsklz4kht2pebhp44xorvyverh23toayhn7i6ubrpyedak24hv1v0hyd.min.css">
+    <link rel="stylesheet" href="/blog/assets/css/all.css">
+    <link rel="stylesheet" href="/blog/assets/css/jquery.fancybox.css">
+    <link rel="stylesheet" href="/blog/assets/css/thumbs.css">
+    <link rel="stylesheet" href="/blog/assets/css/tranquilpeak.css">
     <!--STYLES END-->
     
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139142924-1"></script>
@@ -315,12 +318,122 @@
 </div>
 
         
+            <div id="algolia-search-modal" class="modal-container">
+    <div class="modal">
+        <div class="modal-header">
+            <span class="close-button"><i class="fa fa-times"></i></span>
+            <i class="search-icon fa fa-search"></i>
+            <form id="algolia-search-form">
+                <input type="text" id="algolia-search-input" name="search" class="form-control input--large search-input" placeholder="Search ">
+            </form>
+        </div>
+        <div class="modal-body">
+            <div class="no-result text-color-light text-center">no post found</div>
+            <div class="results">
+                
+                <div class="media">
+                    
+                    <div class="media-body">
+                        <a class="link-unstyled" href="https://uxplus.dev/blog/2019/01/01/hello-world/">
+                            <h3 class="media-heading">Hello World</h3>
+                        </a>
+                        <span class="media-meta">
+                            <span class="media-date text-small">
+                                
+                                    Jan 1, 2019
+                                
+                            </span>
+                        </span>
+                        <div class="media-content hide-xs font-merryweather"></div>
+                    </div>
+                    <div style="clear:both;"></div>
+                    <hr>
+                </div>
+                
+                <div class="media">
+                    
+                    <div class="media-body">
+                        <a class="link-unstyled" href="https://uxplus.dev/blog/2019/04/27/deploy-hexo-to-github-pages/">
+                            <h3 class="media-heading">Deploy a Hexo Blog to Your GitHub Pages</h3>
+                        </a>
+                        <span class="media-meta">
+                            <span class="media-date text-small">
+                                
+                                    Apr 27, 2019
+                                
+                            </span>
+                        </span>
+                        <div class="media-content hide-xs font-merryweather"></div>
+                    </div>
+                    <div style="clear:both;"></div>
+                    <hr>
+                </div>
+                
+                <div class="media">
+                    
+                    <div class="media-body">
+                        <a class="link-unstyled" href="https://uxplus.dev/blog/2019/04/27/first-step-towards-product-success/">
+                            <h3 class="media-heading">First Step Towards Product Success</h3>
+                        </a>
+                        <span class="media-meta">
+                            <span class="media-date text-small">
+                                
+                                    Apr 27, 2019
+                                
+                            </span>
+                        </span>
+                        <div class="media-content hide-xs font-merryweather"></div>
+                    </div>
+                    <div style="clear:both;"></div>
+                    <hr>
+                </div>
+                
+                <div class="media">
+                    
+                    <div class="media-body">
+                        <a class="link-unstyled" href="https://uxplus.dev/blog/2019/04/27/how-to-become-a-generalist/">
+                            <h3 class="media-heading">제너럴리스트로 가는 길</h3>
+                        </a>
+                        <span class="media-meta">
+                            <span class="media-date text-small">
+                                
+                                    Apr 27, 2019
+                                
+                            </span>
+                        </span>
+                        <div class="media-content hide-xs font-merryweather"></div>
+                    </div>
+                    <div style="clear:both;"></div>
+                    <hr>
+                </div>
+                
+            </div>
+        </div>
+        <div class="modal-footer">
+            <p class="results-count text-medium" data-message-zero="no post found" data-message-one="1 post found" data-message-other="{n} posts found">
+                4 posts found
+            </p>
+        </div>
+    </div>
+</div>
+
+        
         
 <div id="cover" style="background-image:url('/blog/assets/images/cover.jpg');"></div>
         <!--SCRIPTS-->
-<script src="/blog/assets/js/script-dbd16rvloemmuxdzniplmnxxvwoz24eya9wol0b7vvmlokgqsjivmb8dnscy.min.js"></script>
+<script src="/blog/assets/js/jquery.js"></script>
+<script src="/blog/assets/js/jquery.fancybox.js"></script>
+<script src="/blog/assets/js/thumbs.js"></script>
+<script src="/blog/assets/js/tranquilpeak.js"></script>
 <!--SCRIPTS END-->
 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment-with-locales.min.js"></script>
+    <script src="//cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+    <script>
+        var algoliaClient = algoliasearch('DMEIPBL7OG', '6debfb1073fd22625b8b0a23d7bc4df1');
+        var algoliaIndex = algoliaClient.initIndex('ux-plus-dev');
+    </script>
 
 
     </body>
