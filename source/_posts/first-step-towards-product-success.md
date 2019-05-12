@@ -1,16 +1,19 @@
 ---
 title: First Step Towards Product Success
 categories:
-- Product Strategy
+- Strategy
 tags: 
 - product strategy
 - design strategy
 - ux
 date: 2019-04-27 09:30:52
+metaAlignment: center
+coverImage: https://images.unsplash.com/photo-1528819622765-d6bcf132f793?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
+coverMeta: out
+coverSize: partial
 ---
 
-![Take a step back and look at the big picture](https://images.unsplash.com/photo-1528819622765-d6bcf132f793?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80)
-What is product success? If product strategy were anything like military tactics, a product would not lose a customer if it knew the customer and the product itself, as adage from "The Art of War" by Sun Tzu suggests.
+What is product success? If product strategy were anything like military tactics, a product would not lose a customer if it knew the customer and the product itself, <!-- more -->as adage from "The Art of War" by Sun Tzu suggests.
 
 Economic principles reveal that people will trade money for what they believe is worth the cost. In other words, a successful product provides value desirable to customers. So how does one go about delivering this value?
 
