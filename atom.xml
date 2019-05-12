@@ -101,8 +101,6 @@
       <category term="Hexo" scheme="http://uxplus.dev/blog/categories/Blog/Hexo/"/>
     
     
-      <category term="development" scheme="http://uxplus.dev/blog/tags/development/"/>
-    
       <category term="hexo" scheme="http://uxplus.dev/blog/tags/hexo/"/>
     
       <category term="blog" scheme="http://uxplus.dev/blog/tags/blog/"/>
@@ -110,6 +108,8 @@
       <category term="github" scheme="http://uxplus.dev/blog/tags/github/"/>
     
       <category term="github pages" scheme="http://uxplus.dev/blog/tags/github-pages/"/>
+    
+      <category term="development" scheme="http://uxplus.dev/blog/tags/development/"/>
     
   </entry>
   
