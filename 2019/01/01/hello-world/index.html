@@ -12,10 +12,12 @@
         <meta name="keywords" content="ux, ui, design, web, development, javascript,">
     
     
+        <link rel="icon" href="http://uxplus.dev/blog/assets/images/favicon.ico">
+    
     
         <link rel="alternate" type="application/atom+xml" title="RSS" href="/blog/atom.xml">
     
-    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Seungmin Lee","sameAs":["https://github.com/smilee","https://www.linkedin.com/in/uxplusdev","mailto:seungmin@uxplus.dev"]},"articleBody":"Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.\nQuick StartCreate a new post1$ hexo new \"My New Post\"\nMore info: Writing\nRun server1$ hexo server\nMore info: Server\nGenerate static files1$ hexo generate\nMore info: Generating\nDeploy to remote sites1$ hexo deploy\nMore info: Deployment\n","dateCreated":"2019-01-01T01:01:01+09:00","dateModified":"2019-05-05T01:35:22+09:00","datePublished":"2019-01-01T01:01:01+09:00","description":"","headline":"Hello World","image":[],"mainEntityOfPage":{"@type":"WebPage","@id":"http://uxplus.dev/blog/2019/01/01/hello-world/"},"publisher":{"@type":"Organization","name":"Seungmin Lee","sameAs":["https://github.com/smilee","https://www.linkedin.com/in/uxplusdev","mailto:seungmin@uxplus.dev"]},"url":"http://uxplus.dev/blog/2019/01/01/hello-world/"}</script>
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Seungmin Lee","sameAs":["https://github.com/smilee","https://www.linkedin.com/in/uxplusdev","mailto:seungmin@uxplus.dev"],"image":"profile.png"},"articleBody":"Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.\nQuick StartCreate a new post1$ hexo new \"My New Post\"\nMore info: Writing\nRun server1$ hexo server\nMore info: Server\nGenerate static files1$ hexo generate\nMore info: Generating\nDeploy to remote sites1$ hexo deploy\nMore info: Deployment\n","dateCreated":"2019-01-01T01:01:01+09:00","dateModified":"2019-05-05T01:35:22+09:00","datePublished":"2019-01-01T01:01:01+09:00","description":"","headline":"Hello World","image":[],"mainEntityOfPage":{"@type":"WebPage","@id":"http://uxplus.dev/blog/2019/01/01/hello-world/"},"publisher":{"@type":"Organization","name":"Seungmin Lee","sameAs":["https://github.com/smilee","https://www.linkedin.com/in/uxplusdev","mailto:seungmin@uxplus.dev"],"image":"profile.png","logo":{"@type":"ImageObject","url":"profile.png"}},"url":"http://uxplus.dev/blog/2019/01/01/hello-world/"}</script>
     <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta name="keywords" content="ux, ui, design, web, development, javascript">
 <meta property="og:type" content="blog">
@@ -33,6 +35,8 @@
         
     
     
+        <meta property="og:image" content="http://uxplus.dev/blog/assets/images/profile.png"/>
+    
     
     
     
@@ -40,6 +44,15 @@
     <link rel="stylesheet" href="/blog/assets/css/style-c4ozcsklz4kht2pebhp44xorvyverh23toayhn7i6ubrpyedak24hv1v0hyd.min.css">
     <!--STYLES END-->
     
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139142924-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-139142924-1');
+    </script>
+
 
     
 </head>
@@ -49,6 +62,10 @@
             <!-- Define author's picture -->
 
 
+    
+        
+            
+        
     
 
 <header id="header" data-behavior="4">
@@ -61,6 +78,8 @@
             <a class="header-right-picture " href="#about">
         
         
+            <img class="header-picture" src="/blog/assets/images/profile.png" alt="Author&#39;s picture">
+        
         </a>
     
 </header>
@@ -68,8 +87,23 @@
             <!-- Define author's picture -->
 
 
+
+        
+    
+
 <nav id="sidebar" data-behavior="4">
     <div class="sidebar-container">
+        
+            <div class="sidebar-profile">
+                <a href="/blog/#about">
+                    <img class="sidebar-profile-picture" src="/blog/assets/images/profile.png" alt="Author&#39;s picture">
+                </a>
+                <h4 class="sidebar-profile-name">Seungmin Lee</h4>
+                
+                    <h5 class="sidebar-profile-bio"><p>author.bio</p>
+</h5>
+                
+            </div>
         
         
             <ul class="sidebar-buttons">
@@ -270,14 +304,6 @@
                 </a>
             </li>
         
-            
-            
-            <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://uxplus.dev/blog/2019/01/01/hello-world/" title="Share on Google+">
-                    <i class="fab fa-google-plus" aria-hidden="true"></i>
-                </a>
-            </li>
-        
         
             
                 <li class="post-action">
@@ -365,14 +391,6 @@
                 </a>
             </li>
         
-            
-            
-            <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://uxplus.dev/blog/2019/01/01/hello-world/" title="Share on Google+">
-                    <i class="fab fa-google-plus" aria-hidden="true"></i>
-                </a>
-            </li>
-        
         
             
                 <li class="post-action">
@@ -415,14 +433,6 @@
                     </a>
                 </li>
             
-                
-                
-                <li class="share-option">
-                    <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http://uxplus.dev/blog/2019/01/01/hello-world/">
-                        <i class="fab fa-google-plus" aria-hidden="true"></i><span>Share on Google+</span>
-                    </a>
-                </li>
-            
         </ul>
     </div>
 
@@ -432,11 +442,17 @@
         
 
 
+    
+        
+    
+
 <div id="about">
     <div id="about-card">
         <div id="about-btn-close">
             <i class="fa fa-times"></i>
         </div>
+        
+            <img id="about-card-picture" src="/blog/assets/images/profile.png" alt="Author&#39;s picture">
         
             <h4 id="about-card-name">Seungmin Lee</h4>
         
@@ -451,6 +467,12 @@
 
             </div>
         
+        
+            <div id="about-card-location">
+                <i class="fa fa-map-marker-alt"></i>
+                <br>
+                Seoul
+            </div>
         
     </div>
 </div>

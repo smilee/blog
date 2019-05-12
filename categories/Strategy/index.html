@@ -12,6 +12,8 @@
         <meta name="keywords" content="ux, ui, design, web, development, javascript,">
     
     
+        <link rel="icon" href="http://uxplus.dev/blog/assets/images/favicon.ico">
+    
     
         <link rel="alternate" type="application/atom+xml" title="RSS" href="/blog/atom.xml">
     
@@ -32,6 +34,8 @@
         
     
     
+        <meta property="og:image" content="http://uxplus.dev/blog/assets/images/profile.png"/>
+    
     
     
     
@@ -39,6 +43,15 @@
     <link rel="stylesheet" href="/blog/assets/css/style-c4ozcsklz4kht2pebhp44xorvyverh23toayhn7i6ubrpyedak24hv1v0hyd.min.css">
     <!--STYLES END-->
     
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139142924-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-139142924-1');
+    </script>
+
 
     
 </head>
@@ -48,6 +61,10 @@
             <!-- Define author's picture -->
 
 
+    
+        
+            
+        
     
 
 <header id="header" data-behavior="1">
@@ -60,6 +77,8 @@
             <a class="header-right-picture " href="#about">
         
         
+            <img class="header-picture" src="/blog/assets/images/profile.png" alt="Author&#39;s picture">
+        
         </a>
     
 </header>
@@ -67,8 +86,23 @@
             <!-- Define author's picture -->
 
 
+
+        
+    
+
 <nav id="sidebar" data-behavior="1">
     <div class="sidebar-container">
+        
+            <div class="sidebar-profile">
+                <a href="/blog/#about">
+                    <img class="sidebar-profile-picture" src="/blog/assets/images/profile.png" alt="Author&#39;s picture">
+                </a>
+                <h4 class="sidebar-profile-name">Seungmin Lee</h4>
+                
+                    <h5 class="sidebar-profile-bio"><p>author.bio</p>
+</h5>
+                
+            </div>
         
         
             <ul class="sidebar-buttons">
@@ -260,11 +294,17 @@
         
 
 
+    
+        
+    
+
 <div id="about">
     <div id="about-card">
         <div id="about-btn-close">
             <i class="fa fa-times"></i>
         </div>
+        
+            <img id="about-card-picture" src="/blog/assets/images/profile.png" alt="Author&#39;s picture">
         
             <h4 id="about-card-name">Seungmin Lee</h4>
         
@@ -279,6 +319,12 @@
 
             </div>
         
+        
+            <div id="about-card-location">
+                <i class="fa fa-map-marker-alt"></i>
+                <br>
+                Seoul
+            </div>
         
     </div>
 </div>
