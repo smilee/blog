@@ -6,14 +6,16 @@
 title: UX + Development
 subtitle: = Love
 description: UX engineer on a mission to bridge the gap between design and development
-keywords: ux, ui, design, web, development
+keywords: ux, ui, design, web, development, javascript
 author: Seungmin Lee
-language: English, Korean
+language:
+- en
+- ko
 timezone: Asia/Seoul
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://uxplus.dev/blog
+url: https://uxplus.dev/blog
 root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -35,7 +37,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -73,7 +75,26 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+algolia:
+  appId: DMEIPBL7OG
+  apiKey: 6debfb1073fd22625b8b0a23d7bc4df1
+  adminApiKey: 0c4bb382c65321006e5e8ce0e9c9a9bb
+  chunkSize: 5000
+  indexName: ux-plus-dev
+  fields:
+    - content:strip:truncate,0,500
+    - excerpt:strip
+    - gallery
+    - permalink
+    - photos
+    - slug
+    - tags
+    - title
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+theme: tranquilpeak
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
