@@ -1,6 +1,11 @@
 ---
 title: First Step Towards Product Success
-tags: 'product strategy, design strategy, ux'
+categories:
+- Product Strategy
+tags: 
+- product strategy
+- design strategy
+- ux
 date: 2019-04-27 09:30:52
 ---
 

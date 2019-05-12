@@ -1,6 +1,14 @@
 ---
 title: Deploy a Hexo Blog to Your GitHub Pages
-tags: 'hexo, blog, github, github pages, development'
+categories:
+- Blog
+- Hexo
+tags: 
+- hexo
+- blog
+- github
+- github pages
+- development
 date: 2019-04-27 02:13:26
 ---
 

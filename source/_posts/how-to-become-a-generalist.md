@@ -1,7 +1,10 @@
 ---
 title: 제너럴리스트로 가는 길
+categories:
+- Career
 tags: 'generalist, designer, developer, hybrid, ui libraries'
 date: 2019-04-27 10:02:07
+comments: true
 ---
 ![어느 길을 가야 하나 고민될 때](https://images.unsplash.com/photo-1483213097419-365e22f0f258?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80)
 저는 학교에서 디자인을 전공했습니다. 와이어프레임도 만들어보고 그래픽 툴도 다뤄보고, 조금이지만 모션 그래픽도 해보았는데요. 물론 이런 것들은 제가 받은 교육의 결과물이고, 어떤 기준으로 이런 결과물을 만들어야 하는지 위주로 디자인을 배웠습니다. 졸업 후엔 디자이너로 취업을 했고요.
