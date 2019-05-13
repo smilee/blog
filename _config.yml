@@ -6,7 +6,13 @@
 title: UX + Development
 subtitle: = Love
 description: UX engineer on a mission to bridge the gap between design and development
-keywords: ux, ui, design, web, development, javascript
+keywords:
+- ux
+- ui
+- design
+- web
+- development
+- javascript
 author: Seungmin Lee
 language:
 - en
