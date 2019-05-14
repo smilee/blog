@@ -1,7 +1,6 @@
 ---
 title: First Step Towards Product Success
-categories:
-- Strategy
+categories: strategy
 tags: 
 - product strategy
 - design strategy

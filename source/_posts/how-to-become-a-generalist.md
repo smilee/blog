@@ -1,17 +1,12 @@
 ---
 title: 제너럴리스트로 가는 길
-metaAlignment: center
-coverImage: https://images.unsplash.com/photo-1483213097419-365e22f0f258?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
-coverMeta: out
-coverSize: partial
-categories:
-- Career
+categories: career
 tags:
 - generalist
 - designer
 - developer
 - hybrid
-- ui libraries'
+- ui libraries
 date: 2019-04-27 10:02:07
 metaAlignment: center
 coverImage: https://images.unsplash.com/photo-1483213097419-365e22f0f258?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
