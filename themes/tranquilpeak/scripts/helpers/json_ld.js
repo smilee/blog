@@ -93,7 +93,7 @@ function jsonLd() {
       url: config.url
     };
 
-    if (config.keywords && config.keywords.constructor === Array) {
+    if (config.keywords && config.keywords.length) {
       schema.keywords = config.keywords.join(', ');
     }
   }
