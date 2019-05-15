@@ -81,21 +81,6 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-algolia:
-  appId: DMEIPBL7OG
-  apiKey: 6debfb1073fd22625b8b0a23d7bc4df1
-  adminApiKey: 0c4bb382c65321006e5e8ce0e9c9a9bb
-  chunkSize: 5000
-  indexName: ux-plus-dev
-  fields:
-    - content:strip:truncate,0,500
-    - excerpt:strip
-    - gallery
-    - permalink
-    - photos
-    - slug
-    - tags
-    - title
 feed:
   type: atom
   path: atom.xml
