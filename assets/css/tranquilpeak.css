@@ -1748,6 +1748,19 @@ a.fancybox {
   margin: 0 auto;
   padding-right: 20px;
   padding-left: 20px; }
+  .main-content-wrap p:last-child::after {
+    background-image: url("/blog/assets/images/tombstone.svg");
+    background-repeat: no-repeat;
+    background-size: 18px auto;
+    left: 4px;
+    bottom: -2px;
+    content: "";
+    display: inline-block;
+    height: 18px;
+    position: relative;
+    width: 18px; }
+  .main-content-wrap[class^="postShorten"] p:last-child::after {
+    display: none; }
 
 @media only screen and (min-width: 1024px) {
   .markdown h1 {
