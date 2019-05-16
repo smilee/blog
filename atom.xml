@@ -110,11 +110,11 @@
       <category term="strategy" scheme="https://uxplus.dev/blog/categories/strategy/"/>
     
     
-      <category term="UX" scheme="https://uxplus.dev/blog/tags/UX/"/>
-    
       <category term="product strategy" scheme="https://uxplus.dev/blog/tags/product-strategy/"/>
     
       <category term="design strategy" scheme="https://uxplus.dev/blog/tags/design-strategy/"/>
+    
+      <category term="UX" scheme="https://uxplus.dev/blog/tags/UX/"/>
     
   </entry>
   
@@ -138,8 +138,6 @@
       <category term="Hexo" scheme="https://uxplus.dev/blog/categories/blog/Hexo/"/>
     
     
-      <category term="development" scheme="https://uxplus.dev/blog/tags/development/"/>
-    
       <category term="Hexo" scheme="https://uxplus.dev/blog/tags/Hexo/"/>
     
       <category term="blog" scheme="https://uxplus.dev/blog/tags/blog/"/>
@@ -147,6 +145,8 @@
       <category term="GitHub" scheme="https://uxplus.dev/blog/tags/GitHub/"/>
     
       <category term="GitHub Pages" scheme="https://uxplus.dev/blog/tags/GitHub-Pages/"/>
+    
+      <category term="development" scheme="https://uxplus.dev/blog/tags/development/"/>
     
   </entry>
   
