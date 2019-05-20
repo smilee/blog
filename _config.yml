@@ -47,7 +47,7 @@ post_asset_folder: true
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace:
@@ -85,8 +85,22 @@ feed:
   type: atom
   path: atom.xml
   limit: 20
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+  plugins:
+    - markdown-it-footnote
 theme: tranquilpeak
-
+prism_plugin:
+  mode: 'realtime'    # realtime/preprocess
+  theme: 'default'
+  line_number: false    # default false
+  custom_css: 'path/to/your/custom.css'     # optional
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
