@@ -2,12 +2,12 @@
 title: Deploy a Hexo Blog to Your GitHub Pages
 categories:
 - blog
-- hexo
+- Hexo
 tags: 
-- hexo
+- Hexo
 - blog
-- github
-- github pages
+- GitHub
+- GitHub Pages
 - development
 keywords:
 - blog
@@ -18,7 +18,7 @@ coverMeta: out
 coverSize: partial
 ---
 
-While asking around for recommendations on blogging tools, I came across [Jekyll](https://jekyllrb.com/) and [Hexo](https://hexo.io/). Both choices are popular, so it all came down to personal preference. <!-- more -->Well, Jekyll is based on Ruby and Hexo on Node.js. It didn't take long before I decided that I would go with Hexo since I am more comfortable with JavaScript.
+While asking around for recommendations on blogging tools, I came across [Jekyll](https://jekyllrb.com/),  [Hexo](https://hexo.io/), and [Gatsby](https://www.gatsbyjs.org/). All of these choices are popular, so it all came down to personal preference. <!-- more -->Well, Jekyll is based on Ruby and Hexo and Gatsby on Node.js. Considering that I am more comfortable with JavaScript, I wanted to go with either Hexo or Gatsby. There was one more thing to consider, though - the degree of freedom. I didn't need the freedom Gatsby offered, and before long, I had this blog up and running.
 
 ## Installing Hexo
 
