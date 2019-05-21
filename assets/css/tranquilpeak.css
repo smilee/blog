@@ -1763,6 +1763,8 @@ a.fancybox {
       display: none; }
   .main-content-wrap[class^="postShorten"] p:last-child::after {
     display: none; }
+  .main-content-wrap .footnotes-sep {
+    margin: 1.5em 0; }
   .main-content-wrap .footnote-ref {
     vertical-align: middle; }
 
